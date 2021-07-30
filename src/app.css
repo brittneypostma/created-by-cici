@@ -1,0 +1,35 @@
+@tailwind base;
+html,
+body,
+section,
+#svelte {
+	height: 100%;
+}
+body {
+	@apply font-text text-lg lg:text-xl text-basics-900;
+}
+h1 {
+	@apply font-heading text-2xl sm:text-5xl lg:text-7xl;
+}
+h2 {
+	@apply font-subHeading text-xl sm:text-3xl lg:text-5xl;
+}
+h3 {
+	@apply font-subHeading text-lg sm:text-2xl lg:text-4xl;
+}
+h4 {
+	@apply font-subHeading text-base sm:text-xl lg:text-3xl;
+}
+/* @media (prefers-color-scheme: dark) {
+	body {
+		@apply text-basics-50 bg-basics-800;
+	}
+} */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		transition-duration: 0.1s;
+		animation: none;
+	}
+}
+@tailwind components;
+@tailwind utilities;
