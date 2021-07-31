@@ -20,6 +20,9 @@ h3 {
 h4 {
 	@apply font-subHeading text-base sm:text-xl lg:text-3xl;
 }
+.max {
+	@apply max-w-7xl mx-auto w-full;
+}
 /* @media (prefers-color-scheme: dark) {
 	body {
 		@apply text-basics-50 bg-basics-800;
