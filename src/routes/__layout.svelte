@@ -6,7 +6,7 @@
 
 <div class="grid grid-cols-1 grid-rows-layout content-start min-h-full">
 	<Header />
-	<main class="max">
+	<main class="max overflow-y-auto">
 		<slot />
 	</main>
 	<div class="flex lg:hidden bg-basics-50 lg:bg-transparent">

@@ -13,7 +13,8 @@
 </script>
 
 <script>
-	import PageHead from '@components/layout/PageHead.svelte'
+	import PageHead from '@components/PageHead.svelte'
+	import Categories from '@components/Categories.svelte'
 	export let products
 </script>
 
@@ -21,6 +22,7 @@
 	title="Home"
 	description="Created by Cici - Find the handcrafted creations you’ll love. From Cricut designs and patterns, to custom art, there is something for everyone."
 />
+<Categories />
 <ul>
 	{#each products as product}
 		<li>

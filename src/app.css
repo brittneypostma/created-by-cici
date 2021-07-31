@@ -1,9 +1,7 @@
 @tailwind base;
-html,
 body,
-section,
 #svelte {
-	height: 100%;
+	height: 100vh;
 }
 body {
 	@apply font-text text-lg lg:text-xl text-basics-900;
