@@ -1,0 +1,33 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 20 Mar 2022 18:25:58 GMT
+ */
+
+:root {
+  --basics-50: #f1f2f6;
+  --basics-100: #dad9d0;
+  --basics-200: #cac9bc;
+  --basics-300: #b6b5a9;
+  --basics-400: #98978d;
+  --basics-500: #797971;
+  --basics-600: #7f7f7f;
+  --basics-700: #595959;
+  --basics-800: #373639;
+  --basics-900: #040403;
+  --basics-base: #797971;
+  --primary-50: #FFFCE7;
+  --primary-100: #FFF9bb;
+  --primary-200: #FFEE68;
+  --primary-300: #FFF057;
+  --primary-400: #FFE835;
+  --primary-500: #FFE202;
+  --primary-600: #f9c846;
+  --primary-700: #F7B915;
+  --primary-800: #685C00;
+  --primary-900: #352F00;
+  --primary-base: #FFF057;
+  --error: #EB3A13;
+  --success: #28CC87;
+  --crimson: #6F1A07;
+  --transparent: transparent;
+}
