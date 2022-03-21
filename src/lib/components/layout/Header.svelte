@@ -15,7 +15,7 @@
 		<!-- 	<Nav /> -->
 		<Categories />
 	</div>
-	<div class="flex h-full items-end">
+	<div class="flex h-full items-center">
 		<ul class="flex space-x-4 items-end text-xs font-bold">
 			<li>
 				<a href="" class="grid grid-cols-1 justify-items-center"

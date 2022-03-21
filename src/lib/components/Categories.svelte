@@ -27,3 +27,9 @@
 		</li>
 	</ul>
 </section>
+
+<style>
+	img {
+		@apply lg:w-16;
+	}
+</style>
