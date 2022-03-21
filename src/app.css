@@ -4,7 +4,7 @@ body,
 	height: 100vh;
 }
 body {
-	@apply font-text text-lg lg:text-xl text-basics-900;
+	@apply font-text text-lg lg:text-xl text-basics-900 overflow-x-hidden;
 }
 h1 {
 	@apply font-heading text-2xl sm:text-5xl lg:text-7xl;

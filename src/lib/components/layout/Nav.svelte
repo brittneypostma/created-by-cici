@@ -7,21 +7,24 @@
 <nav class="px-2 pt-2 pb-8 mx-auto">
 	<ul class="flex space-x-2 justify-around items-center max-w-sm mx-auto text-xs font-bold">
 		<li class={item}>
-			<a href="" class={link}><img src="/icons/home.svg" alt="Home" class={icon} />Home</a>
+			<img src="/icons/home.svg" alt="Home" class={icon} />
+			Home
 		</li>
 		<li class={item}>
-			<a href="" class={link}><img src="/icons/search.svg" alt="Search" class={icon} />Search</a>
+			<img src="/icons/search.svg" alt="Search" class={icon} />
+			Search
 		</li>
 		<li class={`bg-basics-900 ${item}`}>
-			<a href="" class={link}><img src="/icons/bag.svg" alt="Cart" class={icon} />Cart</a>
+			<img src="/icons/bag.svg" alt="Cart" class={icon} />
+			Cart
 		</li>
 		<li class={item}>
-			<a href="" class={link}
-				><img src="/icons/heart.svg" alt="Favorites" class={icon} />Favorites</a
-			>
+			<img src="/icons/heart.svg" alt="Favorites" class={icon} />
+			Favorites
 		</li>
 		<li class={item}>
-			<a href="" class={link}><img src="/icons/profile.svg" alt="Profile" class={icon} />Profile</a>
+			<img src="/icons/profile.svg" alt="Profile" class={icon} />
+			Profile
 		</li>
 	</ul>
 </nav>
