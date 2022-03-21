@@ -5,7 +5,7 @@
 </script>
 
 <header
-	class="sticky top-0 bg-basics-50 max relative flex space-x-2 items-center justify-between border-basics-700 border-b-2 px-2 pt-2 pb-4 mb-5 xl:border-none"
+	class="sticky top-0 bg-basics-50 max relative flex space-x-2 items-center justify-between border-basics-700 border-b-2 px-2 pt-2 pb-4"
 >
 	<div class="flex space-x-2 items-end">
 		<a href="/">
