@@ -1,8 +1,9 @@
 <script>
 	export let title
-	export let description
-	export let ogImage
-	export let siteUrl
+	export let description =
+		'Created by Cici - Find the handcrafted creations you’ll love. From Cricut designs and patterns, to custom art, there is something for everyone.'
+	export let ogImage = null
+	export let siteUrl = null
 
 	const siteTitle = 'Created by Cici'
 	const formattedTitle = title ? `${title} · ${siteTitle}` : siteTitle

@@ -1,10 +1,29 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    .masonry-3-col {
+      column-count: 3;
+      column-gap: 1em;
+    }
+    .masonry-2-col {
+      column-count: 2;
+      column-gap: 1em;
+    }
+    .break-inside {
+      break-inside: avoid;
+    }
+  }
+}
+
 body,
 #svelte {
 	height: 100vh;
 }
 body {
-	@apply font-text text-lg lg:text-xl text-basics-900 overflow-x-hidden;
+	@apply font-text text-lg text-basics-900 overflow-x-hidden bg-basics-50 lg:text-xl;
 }
 h1 {
 	@apply font-heading text-2xl sm:text-5xl lg:text-7xl;

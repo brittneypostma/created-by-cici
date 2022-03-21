@@ -1,16 +1,19 @@
 <script>
 	import '../app.css'
+	import PageHead from '@components/PageHead.svelte'
 	import Header from '@components/layout/Header.svelte'
 	// import Nav from '@components/layout/Nav.svelte'
 	import Categories from '@components/Categories.svelte'
 </script>
+
+<PageHead title="Created by Cici" />
 
 <div class="grid grid-cols-1 grid-rows-layout content-start min-h-full">
 	<Header />
 	<main class="max overflow-y-auto">
 		<slot />
 	</main>
-	<section class="flex justify-center lg:hidden bg-basics-50 lg:bg-transparent">
+	<section class="sticky bottom-0 flex justify-center lg:hidden bg-basics-50 lg:bg-transparent">
 		<Categories />
 		<!-- <div class="flex lg:hidden bg-basics-50 lg:bg-transparent">
 			<Nav />
