@@ -18,7 +18,7 @@
 	<div class="flex h-full items-center">
 		<ul class="flex space-x-4 items-end text-xs font-bold">
 			<li>
-				<a href="" class="grid grid-cols-1 justify-items-center"
+				<a href="/cart" class="grid grid-cols-1 justify-items-center"
 					><img src="icons/bag.png" alt="Cart" />My Bag</a
 				>
 			</li>

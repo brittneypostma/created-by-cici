@@ -5,6 +5,7 @@ import path from 'path'
 const config = {
   kit: {
     adapter: adapter(),
+    prerender: true,
     vite: {
       resolve: {
         alias: {
