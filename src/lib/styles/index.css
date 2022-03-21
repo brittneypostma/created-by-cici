@@ -1,2 +1,5 @@
+@import 'https://unpkg.com/open-props@1.0.14/normalize.min.css';
+@import './_reset.css';
 @import './_fonts.css';
 @import './_variables.css';
+@import './_global.css';

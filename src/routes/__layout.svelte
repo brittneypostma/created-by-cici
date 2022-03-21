@@ -19,4 +19,19 @@
 </div>
 
 <style>
+	main {
+		overflow-y: auto;
+	}
+	section {
+		display: flex;
+		justify-content: center;
+		background-color: var(--basics-50);
+	}
+
+	@media (min-width: 1024px) {
+		section {
+			background: transparent;
+			display: none;
+		}
+	}
 </style>

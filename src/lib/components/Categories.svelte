@@ -1,5 +1,5 @@
-<section class="p-4">
-	<ul class="flex space-x-8 justify-center">
+<section>
+	<ul>
 		<li>
 			<!-- <a href=""> -->
 			<img src="icons/clothing.png" alt="clothing" />
@@ -27,3 +27,14 @@
 		</li>
 	</ul>
 </section>
+
+<style>
+	section {
+		padding: var(--size-4);
+	}
+	ul {
+		display: flex;
+		gap: var(--size-8);
+		justify-content: center;
+	}
+</style>
