@@ -54,7 +54,7 @@ const Header = (0, import_index_830c3daa.c)(($$result, $$props, $$bindings, slot
 		<h1 class="${"text-2xl sm:text-4xl leading-none"}">Created by Cici</h1></div>
 	<div class="${"hidden lg:flex"}">
 		${(0, import_index_830c3daa.v)(Categories, "Categories").$$render($$result, {}, {}, {})}</div>
-	<div class="${"flex h-full items-center"}"><ul class="${"flex space-x-4 items-end text-xs font-bold"}"><li><a href="${""}" class="${"grid grid-cols-1 justify-items-center"}"><img src="${"icons/bag.png"}" alt="${"Cart"}">My Bag</a></li></ul></div></header>`;
+	<div class="${"flex h-full items-center"}"><ul class="${"flex space-x-4 items-end text-xs font-bold"}"><li><a href="${"/cart"}" class="${"grid grid-cols-1 justify-items-center"}"><img src="${"icons/bag.png"}" alt="${"Cart"}">My Bag</a></li></ul></div></header>`;
 });
 const _layout = (0, import_index_830c3daa.c)(($$result, $$props, $$bindings, slots) => {
   return `<div class="${"grid grid-cols-1 grid-rows-layout content-start min-h-full"}">${(0, import_index_830c3daa.v)(Header, "Header").$$render($$result, {}, {}, {})}

@@ -10,16 +10,6 @@
       ".svelte-kit/build/hooks.js"
     ]
   },
-  "src/routes/product/index.json.js": {
-    "file": "entries/endpoints/product/index.json.js",
-    "src": "src/routes/product/index.json.js",
-    "isEntry": true
-  },
-  "src/routes/product/[slug].json.js": {
-    "file": "entries/endpoints/product/_slug_.json.js",
-    "src": "src/routes/product/[slug].json.js",
-    "isEntry": true
-  },
   "src/routes/__layout.svelte": {
     "file": "entries/pages/__layout.svelte.js",
     "src": "src/routes/__layout.svelte",
@@ -47,9 +37,9 @@
       "_index-830c3daa.js"
     ]
   },
-  "src/routes/product/[slug].svelte": {
-    "file": "entries/pages/product/_slug_.svelte.js",
-    "src": "src/routes/product/[slug].svelte",
+  "src/routes/cart.svelte": {
+    "file": "entries/pages/cart.svelte.js",
+    "src": "src/routes/cart.svelte",
     "isEntry": true,
     "imports": [
       "_index-830c3daa.js"

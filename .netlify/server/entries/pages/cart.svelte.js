@@ -17,10 +17,10 @@ var __copyProps = (to, from, except, desc) => {
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  default: () => U5Bslugu5D
+  default: () => Cart
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_830c3daa = require("../../../chunks/index-830c3daa.js");
-const U5Bslugu5D = (0, import_index_830c3daa.c)(($$result, $$props, $$bindings, slots) => {
+var import_index_830c3daa = require("../../chunks/index-830c3daa.js");
+const Cart = (0, import_index_830c3daa.c)(($$result, $$props, $$bindings, slots) => {
   return ``;
 });

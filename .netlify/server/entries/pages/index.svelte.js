@@ -17,9 +17,7 @@ var __copyProps = (to, from, except, desc) => {
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  default: () => Routes,
-  hydrate: () => hydrate,
-  load: () => load
+  default: () => Routes
 });
 module.exports = __toCommonJS(stdin_exports);
 var import_index_830c3daa = require("../../chunks/index-830c3daa.js");
@@ -40,18 +38,9 @@ const PageHead = (0, import_index_830c3daa.c)(($$result, $$props, $$bindings, sl
     $$bindings.siteUrl(siteUrl);
   return `${$$result.head += `${$$result.title = `<title>${(0, import_index_830c3daa.e)(formattedTitle)}</title>`, ""}<meta name="${"description"}"${(0, import_index_830c3daa.a)("content", description, 0)} data-svelte="svelte-r8pqhg"><meta itemprop="${"name"}"${(0, import_index_830c3daa.a)("content", title, 0)} data-svelte="svelte-r8pqhg"><meta itemprop="${"description"}"${(0, import_index_830c3daa.a)("content", description, 0)} data-svelte="svelte-r8pqhg"><meta itemprop="${"image"}"${(0, import_index_830c3daa.a)("content", ogImage, 0)} data-svelte="svelte-r8pqhg"><meta property="${"og:url"}"${(0, import_index_830c3daa.a)("content", siteUrl, 0)} data-svelte="svelte-r8pqhg"><meta property="${"og:type"}" content="${"website"}" data-svelte="svelte-r8pqhg"><meta property="${"og:title"}"${(0, import_index_830c3daa.a)("content", title, 0)} data-svelte="svelte-r8pqhg"><meta property="${"og:description"}"${(0, import_index_830c3daa.a)("content", description, 0)} data-svelte="svelte-r8pqhg"><meta property="${"og:image"}"${(0, import_index_830c3daa.a)("content", ogImage, 0)} data-svelte="svelte-r8pqhg"><meta name="${"twitter:card"}" content="${"summary_large_image"}" data-svelte="svelte-r8pqhg"><meta name="${"twitter:title"}"${(0, import_index_830c3daa.a)("content", title, 0)} data-svelte="svelte-r8pqhg"><meta name="${"twitter:description"}"${(0, import_index_830c3daa.a)("content", description, 0)} data-svelte="svelte-r8pqhg"><meta name="${"twitter:image"}"${(0, import_index_830c3daa.a)("content", ogImage, 0)} data-svelte="svelte-r8pqhg">`, ""}`;
 });
-const hydrate = false;
-async function load({ fetch }) {
-  const { products } = await fetch("/product.json?").then((res) => res.json());
-  return { props: { products } };
-}
 const Routes = (0, import_index_830c3daa.c)(($$result, $$props, $$bindings, slots) => {
-  let { products } = $$props;
-  if ($$props.products === void 0 && $$bindings.products && products !== void 0)
-    $$bindings.products(products);
   return `${(0, import_index_830c3daa.v)(PageHead, "PageHead").$$render($$result, {
     title: "Home",
     description: "Created by Cici - Find the handcrafted creations you\u2019ll love. From Cricut designs and patterns, to custom art, there is something for everyone."
-  }, {}, {})}
-`;
+  }, {}, {})}`;
 });
