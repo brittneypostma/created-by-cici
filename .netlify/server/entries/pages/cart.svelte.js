@@ -20,7 +20,7 @@ __export(stdin_exports, {
   default: () => Cart
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_830c3daa = require("../../chunks/index-830c3daa.js");
-const Cart = (0, import_index_830c3daa.c)(($$result, $$props, $$bindings, slots) => {
+var import_index_973ab5b7 = require("../../chunks/index-973ab5b7.js");
+const Cart = (0, import_index_973ab5b7.c)(($$result, $$props, $$bindings, slots) => {
   return ``;
 });

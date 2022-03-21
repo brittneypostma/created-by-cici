@@ -1,6 +1,8 @@
 import adapter from '@sveltejs/adapter-netlify'
 import preprocess from 'svelte-preprocess'
 import path from 'path'
+import { imagetools } from 'vite-imagetools'
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
@@ -9,6 +11,7 @@ const config = {
       default: true
     },
     vite: {
+      plugins: [imagetools({ force: true })],
       resolve: {
         alias: {
           '@lib': path.resolve('./src/lib'),

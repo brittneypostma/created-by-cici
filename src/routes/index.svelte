@@ -1,12 +1,13 @@
 <script context="module">
 	export async function load({ fetch }) {
-		const res = await fetch('./api/images', {
-			method: 'GET',
-			credentials: 'same-origin'
-		})
+		const imageFiles = await import.meta.glob('../../static/images/**/*.png')
+		const imageDataPromises = Object.keys(imageFiles).map((path) => imageFiles[path]())
+		const imageData = await Promise.all(imageDataPromises)
+		const imageDataArray = imageData.map((element) => element.default)
+
 		return {
 			props: {
-				...(await res.json())
+				images: imageDataArray
 			}
 		}
 	}
