@@ -30,6 +30,6 @@
 
 <style>
 	img {
-		@apply lg:w-16;
+		@apply w-16;
 	}
 </style>
