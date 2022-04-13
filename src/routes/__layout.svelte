@@ -1,12 +1,12 @@
 <script>
 	import '../app.css'
-	import PageHead from '@components/PageHead.svelte'
-	import Header from '@components/layout/Header.svelte'
+	import Head from '@layout/Head.svelte'
+	import Header from '@layout/Header.svelte'
 	// import Nav from '@components/layout/Nav.svelte'
 	import Categories from '@components/Categories.svelte'
 </script>
 
-<PageHead title="Created by Cici" />
+<Head title="Created by Cici" />
 
 <div class="grid grid-cols-1 grid-rows-layout content-start min-h-full">
 	<Header />

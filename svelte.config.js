@@ -7,15 +7,13 @@ import { imagetools } from 'vite-imagetools'
 const config = {
   kit: {
     adapter: adapter(),
-    prerender: {
-      default: true
-    },
     vite: {
       plugins: [imagetools({ force: true })],
       resolve: {
         alias: {
           '@lib': path.resolve('./src/lib'),
           '@components': path.resolve('./src/lib/components'),
+          '@layout': path.resolve('./src/lib/components/layout'),
           '@utils': path.resolve('./src/lib/utils')
         }
       }
@@ -23,12 +21,7 @@ const config = {
   },
 
   preprocess: [
-    preprocess({
-      default: {
-        style: "postcss"
-      },
-      postcss: true
-    })
+    preprocess({ postcss: true })
   ]
 }
 

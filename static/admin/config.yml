@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+
+media_folder: "static/images" 
+public_folder: "static"
+collections:
+  - label: "Products"
+    name: "products"
+    files:
+      - label: "Site Copy"
+        name: "site_copy"
+        delete: false
+        create: true
+        file: "_data/copy.json"
+        fields:
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Headline", name: "headline", widget: "string" }

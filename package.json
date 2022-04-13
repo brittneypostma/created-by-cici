@@ -27,5 +27,8 @@
 		"tailwindcss": "^2.2.4",
 		"vite-imagetools": "^4.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"netlify-cms-app": "^2.15.72"
+	}
 }
