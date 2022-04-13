@@ -1,6 +1,6 @@
 export async function get() {
   try {
-    const imageFiles = await import.meta.glob('../../../static/admin/images/**/*.png')
+    const imageFiles = await import.meta.glob('../../../static/images/**/*.png')
     const imageDataPromises = Object.keys(imageFiles).map((path) => imageFiles[path]())
     const imageData = await Promise.all(imageDataPromises);
     const images = imageData.map((element) => element.default)
