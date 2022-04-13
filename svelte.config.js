@@ -7,9 +7,6 @@ import { imagetools } from 'vite-imagetools'
 const config = {
   kit: {
     adapter: adapter(),
-    prerender: {
-      default: true
-    },
     vite: {
       plugins: [imagetools({ force: true })],
       resolve: {
