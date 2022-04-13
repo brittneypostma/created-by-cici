@@ -9,11 +9,13 @@ collections:
   - label: "Products"
     name: "products"
     files:
-      - label: "Site Copy"
-        name: "site_copy"
+      - label: "Product List"
+        name: "product_list"
         delete: false
         create: true
-        file: "_data/copy.json"
+        file: "src/lib/utils/products.json"
         fields:
-          - { label: "Tagline", name: "tagline", widget: "string" }
-          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Image", name: "image", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Categories",  name: "categories", widget: "string" }

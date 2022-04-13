@@ -1,0 +1,10 @@
+{ "products": [
+  {
+    "name": "4th of July Gnome Pillow",
+    "image": "/images/4th-gnome-pillow.png",
+    "description": "brief desc of item",
+    "tags": ["holiday", "creations"],
+    "size": ["kids", "adults"]
+  }
+]
+}
