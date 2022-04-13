@@ -1,5 +1,5 @@
 <section class="w-full border-basics-700 border-t-2 xl:border-none">
-	<ul class="p-4 flex space-x-8 justify-center">
+	<ul class="p-4 flex space-x-4 lg:space-x-8 justify-center">
 		<li>
 			<!-- <a href=""> -->
 			<img src="icons/clothing.png" alt="clothing" />

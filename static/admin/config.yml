@@ -1,0 +1,7 @@
+backend:
+  name: github
+  repo: brittneypostma/created-by-cici # Path to your Github repository
+  branch: main # Branch to update (main by default)
+
+media_folder: "static/images" # Folder where user uploaded files should go
+public_folder: "static" # CMS now knows 'static' is the public folder and will strip this from the path

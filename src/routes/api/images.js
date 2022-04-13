@@ -1,12 +1,12 @@
 export async function get() {
   try {
-    const images = await import.meta.glob('../../../static/images/**/*.png');
-    const imageDataPromises = Object.keys(images).map((path) => images[path]());
+    const imageFiles = await import.meta.glob('../../../static/admin/images/**/*.png')
+    const imageDataPromises = Object.keys(imageFiles).map((path) => imageFiles[path]())
     const imageData = await Promise.all(imageDataPromises);
-    const imageDataArray = imageData.map((element) => element.default);
-
+    const images = imageData.map((element) => element.default)
     return {
-      body: JSON.stringify({ images: imageDataArray }),
+      status: 200,
+      body: images
     };
   } catch (error) {
     console.error('Error: ', error);

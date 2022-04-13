@@ -10,7 +10,6 @@
 </script>
 
 <svelte:head>
-	<!-- Meta Tags Generated via http://heymeta.com -->
 	<title>{formattedTitle}</title>
 	<meta name="description" content={description} />
 

@@ -16,6 +16,7 @@ const config = {
         alias: {
           '@lib': path.resolve('./src/lib'),
           '@components': path.resolve('./src/lib/components'),
+          '@layout': path.resolve('./src/lib/components/layout'),
           '@utils': path.resolve('./src/lib/utils')
         }
       }
@@ -23,12 +24,7 @@ const config = {
   },
 
   preprocess: [
-    preprocess({
-      default: {
-        style: "postcss"
-      },
-      postcss: true
-    })
+    preprocess({ postcss: true })
   ]
 }
 
