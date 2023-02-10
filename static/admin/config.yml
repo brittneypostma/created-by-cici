@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+
+media_folder: "static/images" 
+public_folder: "static"
+collections:
+  - label: "Products"
+    name: "products"
+    files:
+      - label: "Product List"
+        name: "product_list"
+        delete: false
+        create: true
+        file: "src/lib/utils/products.json"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Image", name: "image", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Categories",  name: "categories", widget: "string" }
