@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.masonry-3-col {
+		column-count: 3;
+		column-gap: 1em;
+	}
+	.masonry-2-col {
+		column-count: 2;
+		column-gap: 1em;
+	}
+	.break-inside {
+		break-inside: avoid;
+	}
+}
+
+body,
+#svelte {
+	height: 100vh;
+}
+body {
+	@apply font-text text-lg text-basics-900 overflow-x-hidden bg-basics-50 lg:text-xl;
+}
+h1 {
+	@apply font-heading text-2xl sm:text-5xl lg:text-7xl;
+}
+h2 {
+	@apply font-subHeading text-xl sm:text-3xl lg:text-5xl;
+}
+h3 {
+	@apply font-subHeading text-lg sm:text-2xl lg:text-4xl;
+}
+h4 {
+	@apply font-subHeading text-base sm:text-xl lg:text-3xl;
+}
+.max {
+	@apply max-w-7xl mx-auto w-full;
+}
+/* @media (prefers-color-scheme: dark) {
+	body {
+		@apply text-basics-50 bg-basics-800;
+	}
+} */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		transition-duration: 0.1s;
+		animation: none;
+	}
+}
+@tailwind components;
+@tailwind utilities;
