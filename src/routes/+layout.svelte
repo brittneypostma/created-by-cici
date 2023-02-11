@@ -7,7 +7,6 @@
 	import { onMount } from 'svelte'
 	export let data
 	const paypal = data.paypal
-	console.log(data)
 
 	const style = {
 		layout: 'horizontal'
