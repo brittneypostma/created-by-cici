@@ -3,7 +3,6 @@
 	import Images from '@components/Images.svelte'
 	export let data
 	const images = data.images.resources
-	console.log(images)
 </script>
 
 <Head title="Clothing" />
