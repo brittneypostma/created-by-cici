@@ -36,7 +36,7 @@
 	<Header />
 	<Categories />
 	<main>
-		{#if !$page.route.id === '/contact'}
+		{#if !$page.route.id.includes('contact')}
 			<Banner />
 		{/if}
 		<div id="paypal-button-container" class="flex justify-center" />
