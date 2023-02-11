@@ -7,37 +7,30 @@
 	import Cards from '@icons/cards.png'
 </script>
 
-<section class="w-full border-basics-700 border-t-2 xl:border-none">
-	<ul class="p-4 lg:p-8 flex space-x-4 lg:space-x-8 justify-center">
-		<li>
-			<a href="/clothing">
-				<img src={Clothing} alt="clothing" />
-			</a>
-		</li>
-		<li>
-			<a href="/creations">
-				<img src={Creations} alt="creations" />
-			</a>
-		</li>
-		<li>
-			<a href="/cuts">
-				<img src={Cuts} alt="cuts" />
-			</a>
-		</li>
-		<li>
-			<a href="/college">
-				<img src={College} alt="college" />
-			</a>
-		</li>
-		<li>
-			<a href="/cups">
-				<img src={Cups} alt="cups" />
-			</a>
-		</li>
-		<li>
-			<a href="/cards">
-				<img src={Cards} alt="cards" />
-			</a>
-		</li>
-	</ul>
-</section>
+<nav
+	class="p-4 fixed bg-basics-50 bottom-0 w-full border-basics-700 border-t-2 flex space-x-4 lg:space-x-8 justify-center"
+>
+	<a href="/clothing">
+		<img src={Clothing} alt="clothing" />
+	</a>
+
+	<a href="/creations">
+		<img src={Creations} alt="creations" />
+	</a>
+
+	<a href="/cuts">
+		<img src={Cuts} alt="cuts" />
+	</a>
+
+	<a href="/college">
+		<img src={College} alt="college" />
+	</a>
+
+	<a href="/cups">
+		<img src={Cups} alt="cups" />
+	</a>
+
+	<a href="/cards">
+		<img src={Cards} alt="cards" />
+	</a>
+</nav>

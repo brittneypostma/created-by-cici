@@ -15,7 +15,6 @@ export async function load() {
     type: 'upload',
     prefix: 'featured'
   }, (e, result) => e ? e : result)
-
   return {
     images
   }

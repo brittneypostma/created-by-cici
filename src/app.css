@@ -50,4 +50,16 @@ h4 {
 	}
 }
 @tailwind components;
+@layer components {
+	button,
+	[type='submit'],
+	.btn {
+		@apply bg-basics-900 text-basics-50 px-8 py-4 rounded-md font-subHeading;
+	}
+
+	input,
+	textarea {
+		@apply bg-transparent border-2 border-basics-900 rounded-sm p-2;
+	}
+}
 @tailwind utilities;

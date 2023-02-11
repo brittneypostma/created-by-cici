@@ -5,7 +5,8 @@ const config = {
   theme: {
     fontFamily: {
       heading: ['lobster two'],
-      subHeading: ['crimson text'],
+      subHeading: ['lora'],
+      crimson: ['crimson text'],
       text: ['overlock']
     },
     colors: {
@@ -48,6 +49,9 @@ const config = {
       },
       gridTemplateRows: {
         layout: 'auto 1fr auto'
+      },
+      gridTemplateColumns: {
+        minmax: 'repeat(auto-fit, minmax(300px, 1fr))'
       }
     }
   },

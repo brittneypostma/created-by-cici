@@ -7,9 +7,13 @@
 	 * @type {string}
 	 */
 	export let alt
+	/**
+	 * @type {?string}
+	 */
+	export let classes = ''
 
 	// const name = /.*\//
 	// img.replace(name, '').split('.').slice(0, -1).join('.')
 </script>
 
-<img {src} {alt} class="rounded-lg bg-cover mb-4" />
+<img {src} {alt} class={`${classes} rounded-lg object-cover`} />
