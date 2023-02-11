@@ -5,7 +5,7 @@
 	const images = data.images.resources
 </script>
 
-<Head title="Home" />
+<Head title="Cuts" />
 
 <section class="grid lg:block lg:masonry-3-col gap-8">
 	<Images {images} />

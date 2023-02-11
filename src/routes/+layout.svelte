@@ -4,6 +4,9 @@
 	import Header from '@layout/Header.svelte'
 	// import Nav from '@components/layout/Nav.svelte'
 	import Categories from '@components/Categories.svelte'
+
+	export let data
+	const images = data.images
 </script>
 
 <Head title="Created by Cici" />
