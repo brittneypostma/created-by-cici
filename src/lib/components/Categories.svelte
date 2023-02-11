@@ -8,7 +8,7 @@
 </script>
 
 <section class="w-full border-basics-700 border-t-2 xl:border-none">
-	<ul class="p-4 flex space-x-4 lg:space-x-8 justify-center">
+	<ul class="p-4 lg:p-8 flex space-x-4 lg:space-x-8 justify-center">
 		<li>
 			<a href="/clothing">
 				<img src={Clothing} alt="clothing" />
@@ -41,9 +41,3 @@
 		</li>
 	</ul>
 </section>
-
-<style>
-	img {
-		@apply w-16;
-	}
-</style>
