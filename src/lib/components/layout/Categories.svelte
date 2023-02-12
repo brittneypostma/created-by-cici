@@ -34,3 +34,15 @@
 		<img src={Cards} alt="cards" />
 	</a>
 </nav>
+
+<style lang="postcss">
+	img {
+		@apply max-w-[50px];
+	}
+
+	@media (min-height: 1025px) {
+		img {
+			@apply max-w-full;
+		}
+	}
+</style>
