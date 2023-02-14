@@ -28,6 +28,7 @@
 			rows="5"
 			cols="33"
 			id="message"
+			name="message"
 			placeholder="Let me know any questions you have or items you would like to purchase."
 			required
 		/>
