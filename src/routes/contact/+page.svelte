@@ -37,7 +37,7 @@
 		<label for="email">Email:</label>
 		<input type="email" id="email" bind:value={email} placeholder="email@email.com" required />
 		<label for="name">Phone:</label>
-		<input type="number" id="number" bind:value={number} placeholder="Your name" required />
+		<input type="number" id="number" bind:value={number} placeholder="123-456-7890" required />
 
 		<label for="message">Message:</label>
 		<textarea
