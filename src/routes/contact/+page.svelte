@@ -1,21 +1,5 @@
 <script>
 	import Head from '@layout/Head.svelte'
-	/**
-	 * @type {string}
-	 */
-	let name
-	/**
-	 * @type {string}
-	 */
-	let email
-	/**
-	 * @type {string}
-	 */
-	let message
-	/**
-	 * @type {number}
-	 */
-	let number
 </script>
 
 <Head title="Contact" />
@@ -32,19 +16,18 @@
 	>
 		<input type="hidden" name="form-name" value="contact" />
 		<label for="name">Name:</label>
-		<input type="text" id="name" bind:value={name} placeholder="Your name" required />
+		<input type="text" id="name" placeholder="Your name" required />
 
 		<label for="email">Email:</label>
-		<input type="email" id="email" bind:value={email} placeholder="email@email.com" required />
+		<input type="email" id="email" placeholder="email@email.com" required />
 		<label for="name">Phone:</label>
-		<input type="number" id="number" bind:value={number} placeholder="123-456-7890" required />
+		<input type="number" id="number" placeholder="123-456-7890" />
 
 		<label for="message">Message:</label>
 		<textarea
 			rows="5"
 			cols="33"
 			id="message"
-			bind:value={message}
 			placeholder="Let me know any questions you have or items you would like to purchase."
 			required
 		/>
