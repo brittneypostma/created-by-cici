@@ -11,21 +11,33 @@
 	/**
 	 * @type {string}
 	 */
-
 	let message
+	/**
+	 * @type {number}
+	 */
+	let number
 </script>
 
 <Head title="Contact" />
 
 <section class="max-w-lg grid justify-items-stretch gap-4 mx-auto">
 	<h1 class="text-center">Get in Touch</h1>
-	<form class="grid" name="contact">
-		<input hidden name="form-name" value="contact" />
+	<form
+		method="POST"
+		class="grid"
+		name="contact"
+		action="/thank-you"
+		netlify-honeypot="bot-field"
+		data-netlify="true"
+	>
+		<input type="hidden" name="form-name" value="contact" />
 		<label for="name">Name:</label>
 		<input type="text" id="name" bind:value={name} placeholder="Your name" required />
 
 		<label for="email">Email:</label>
 		<input type="email" id="email" bind:value={email} placeholder="email@email.com" required />
+		<label for="name">Phone:</label>
+		<input type="number" id="number" bind:value={number} placeholder="Your name" required />
 
 		<label for="message">Message:</label>
 		<textarea
