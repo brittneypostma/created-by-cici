@@ -16,12 +16,12 @@
 	>
 		<input type="hidden" name="form-name" value="contact" />
 		<label for="name">Name:</label>
-		<input type="text" id="name" placeholder="Your name" required />
+		<input type="text" id="name" name="name" placeholder="Your name" required />
 
 		<label for="email">Email:</label>
-		<input type="email" id="email" placeholder="email@email.com" required />
+		<input type="email" id="email" name="email" placeholder="email@email.com" required />
 		<label for="name">Phone:</label>
-		<input type="number" id="number" placeholder="123-456-7890" />
+		<input type="number" id="number" name="number" placeholder="123-456-7890" />
 
 		<label for="message">Message:</label>
 		<textarea
