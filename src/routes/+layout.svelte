@@ -9,25 +9,28 @@
 	import { onMount } from 'svelte'
 	import { page } from '$app/stores'
 	export let data
-	const paypal = data.paypal
+	// const paypal = data.paypal
 
-	const style = {
-		layout: 'horizontal'
-	}
+	// const style = {
+	// 	layout: 'horizontal'
+	// }
 
-	onMount(async () => {
-		if (paypal) {
-			try {
-				const buttons = await paypal.Buttons({
-					style
-				})
-				const render = await buttons.render('#paypal-button-container')
-				return render
-			} catch (error) {
-				console.error('failed to render the PayPal Buttons', error)
-			}
-		}
-	})
+	// onMount(async () => {
+	// 	if (paypal) {
+	//     let description = document.querySelector('#smart-button-container #description')
+	//     let amount = document.querySelector('#smart-button-container #amount')
+	//     const elArr = [description, amount];
+	// 		try {
+	// 			const buttons = await paypal.Buttons({
+	// 				style
+	// 			})
+	// 			const render = await buttons.render('#paypal-button-container')
+	// 			return render
+	// 		} catch (error) {
+	// 			console.error('failed to render the PayPal Buttons', error)
+	// 		}
+	// 	}
+	// })
 </script>
 
 <Head title="Created by Cici" />
@@ -38,7 +41,7 @@
 		{#if !$page.route.id.includes('contact')}
 			<Banner />
 		{/if}
-		<div id="paypal-button-container" class="flex justify-center" />
+		<!-- <div id="paypal-button-container" class="flex justify-center" /> -->
 		<div class="max p-4 lg:p-8 overflow-y-auto lg:mb-0">
 			<slot />
 		</div>
