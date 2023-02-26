@@ -1,0 +1,16 @@
+{
+  "name": "mono-created-by-cici",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "admin": "pnpm --filter admin run dev",
+    "dev": "pnpm --filter cici run dev",
+    "seed": "pnpm --filter medusa-backend run seed",
+    "server": "pnpm --filter medusa-backend run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
