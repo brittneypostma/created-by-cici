@@ -6,8 +6,8 @@
   "scripts": {
     "admin": "pnpm --filter admin run dev",
     "dev": "pnpm --filter cici run dev",
-    "seed": "pnpm --filter server run seed",
-    "server": "pnpm --filter server run start",
+    "seed": "pnpm --filter server seed",
+    "server": "pnpm --filter server start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

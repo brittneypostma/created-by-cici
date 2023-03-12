@@ -13,7 +13,7 @@ const config = {
       '@utils': path.resolve('./src/lib/utils'),
       '@images': path.resolve('./src/lib/images'),
       '@icons': path.resolve('./src/lib/icons'),
-    },
+    }
   },
   preprocess: [preprocess({
     postcss: true
